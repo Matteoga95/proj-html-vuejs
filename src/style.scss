@@ -1,0 +1,18 @@
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "./assets/scss/variables.scss";
+
+body {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.empty-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid $greyFont;
+  cursor: pointer;
+  outline: none;
+  color: $greyFont;
+  padding: 0.5rem 1rem;
+  margin: auto;
+
+}
