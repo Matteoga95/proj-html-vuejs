@@ -1,17 +1,23 @@
 <script>
+import { icon } from '@fortawesome/fontawesome-svg-core';
+
 
 export default {
     name: "ServiceCard",
     props: {
         title: String,
-        immagineSrc: String
+        iconType: String
     }
 }
 </script>
 
 <template>
     <div class="text-center col">
-        <img class=" circle p-3 mb-3 img-fluid rounded-circle  " src="../../assets/img/divider-x-red.png" alt="">
+
+        <div class=" ico p-3 circle rounded-circle  ">
+            <font-awesome-icon :icon="this.iconType" />
+        </div>
+
 
 
         <h4 class="py-2">{{ this.title }}</h4>
@@ -30,11 +36,13 @@ h4 {
     color: white;
 }
 
-.circle {
-    border: 1px solid $redMain;
-
-    margin: auto;
+.ico {
+    color: $redMain ;
 }
 
-img {}
+.circle {
+    border: 1px solid $redMain;
+    width: 20%;
+    margin: auto;
+}
 </style>

@@ -24,15 +24,18 @@ export default {
 
             </div>
 
-            <div class="socials d-flex px-2">
-                <div class="red-block mb-4 mx-2 ">
-                    <i class="fa-regular fa-face-awesome "></i>
+
+
+            <div class="socials d-flex px-2 ">
+                <div class="red-block mb-4 mx-2  d-flex justify-content-center align-items-center ">
+                    <font-awesome-icon icon=" fa-brands fa-facebook-f" />
+
                 </div>
-                <div class="red-block mb-4 mx-2 ">
-                    <i class="fa-regular fa-face-awesome"></i>
+                <div class="red-block mb-4 mx-2  d-flex justify-content-center align-items-center">
+                    <font-awesome-icon icon=" fa-brands fa-twitter" />
                 </div>
-                <div class="red-block mb-4 mx-2 ">
-                    <i class="fa-regular fa-face-awesome"></i>
+                <div class="red-block mb-4 mx-2  d-flex justify-content-center align-items-center">
+                    <font-awesome-icon icon=" fa-brands fa-instagram" />
                 </div>
             </div>
 

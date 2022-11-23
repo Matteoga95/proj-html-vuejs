@@ -13,14 +13,15 @@ export default {
                 Powered by WordPress</p>
 
             <div class="socials w-25 d-flex justify-content-center">
-                <div class="red-block mx-2 ">
-                    <i class="fa-regular fa-face-awesome "></i>
+                <div class="red-block mx-2 d-flex justify-content-center align-items-center ">
+                    <font-awesome-icon icon=" fa-brands fa-facebook-f" />
+
                 </div>
-                <div class="red-block mx-2">
-                    <i class="fa-regular fa-face-awesome"></i>
+                <div class="red-block mx-2 d-flex justify-content-center align-items-center">
+                    <font-awesome-icon icon=" fa-brands fa-twitter" />
                 </div>
-                <div class="red-block mx-2">
-                    <i class="fa-regular fa-face-awesome"></i>
+                <div class="red-block mx-2 d-flex justify-content-center align-items-center">
+                    <font-awesome-icon icon=" fa-brands fa-instagram" />
                 </div>
             </div>
 
@@ -37,9 +38,10 @@ footer {
     color: $greyLightFont;
 }
 
+
 .red-block {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     background-color: $redMain;
     border-radius: 2px;
     color: white;

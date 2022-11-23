@@ -49,10 +49,10 @@ export default {
         <!-- sezione service card  -->
         <section class="service-card ">
             <div class="contenitore d-flex">
-                <ServiceCard title="Strenght & Conditioning" />
-                <ServiceCard title="Fitness & Cardio" />
-                <ServiceCard title="Flexibility & Rest" />
-                <ServiceCard title="Health & Diet" />
+                <ServiceCard title="Strenght & Conditioning" iconType="fa-solid fa-link-slash" />
+                <ServiceCard title="Fitness & Cardio" iconType="fa-solid  fa-bicycle" />
+                <ServiceCard title="Flexibility & Rest" iconType="fa-solid fa-cloud" />
+                <ServiceCard title="Health & Diet" iconType="fa-solid fa-heart-pulse" />
             </div>
 
         </section>
