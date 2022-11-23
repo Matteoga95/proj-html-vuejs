@@ -6,7 +6,8 @@ import FeedbackCard from '../components/partial/FeedbackCard.vue';
 import BruceLeeQuotation from '../components/partial/BruceLeeQuotation.vue';
 import TrainerCard from '../components/partial/TrainerCard.vue';
 import NewsCard from '../components/partial/NewsCard.vue';
-
+import GoalBanner from '../components/partial/GoalBanner.vue';
+import Info from '../components/partial/Info.vue';
 
 export default {
     components: {
@@ -16,7 +17,9 @@ export default {
         FeedbackCard,
         BruceLeeQuotation,
         TrainerCard,
-        NewsCard
+        NewsCard,
+        GoalBanner,
+        Info
     }
 }
 </script>
@@ -151,6 +154,16 @@ export default {
                     <button class="empty-button px-4 my-5 ">READ ALL ARTICLES</button>
                 </div>
             </div>
+
+        </section>
+
+        <!-- sezione goals banner  -->
+        <GoalBanner />
+
+        <!-- sezione informazioni -->
+        <section class="primario">
+
+            <Info />
 
         </section>
 
