@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <h2 class="py-4">{{ this.title }}</h2>
+    <h2 class="py-4 text-center">{{ this.title }}</h2>
     <div class="d-flex justify-content-center">
         <img class="pb-4" src="../../assets/img/divider-xx-red.png" alt="">
 
