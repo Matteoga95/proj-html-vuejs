@@ -118,9 +118,8 @@ export default {
                 <titleDiv title="MEET OUR TRAINERS" />
 
                 <div class="d-flex justify-content-center">
-                    <TrainerCard name="Ann Baker" immagineSrc="trainer1.jpg" />
-                    <TrainerCard name="Anne Warren" immagineSrc="trainer3.jpg" />
-                    <TrainerCard name="Peter Rice" immagineSrc="trainer4.jpg" />
+
+                    <TrainerCard v-for="trainer in state.trainers" :trainer="trainer" />
 
                 </div>
 

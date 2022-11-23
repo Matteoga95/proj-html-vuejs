@@ -42,5 +42,19 @@ export const store = reactive({
             "imgSrc": "review_4-compressor-2.jpg",
             "paragraph": "'No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers..'"
         }
+    ],
+    trainers: [
+        {
+            "name": "Ann Baker",
+            "imgSrc": "trainer1.jpg"
+        },
+        {
+            "name": "Anne Warren",
+            "imgSrc": "trainer3.jpg"
+        },
+        {
+            "name": "Peter Rice",
+            "imgSrc": "trainer4.jpg"
+        }
     ]
 })

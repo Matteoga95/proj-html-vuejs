@@ -3,8 +3,7 @@
 export default {
     name: "TrainerCard",
     props: {
-        name: String,
-        immagineSrc: String
+        trainer: Object
     }
 }
 </script>
@@ -13,11 +12,11 @@ export default {
     <div class="py-5">
         <div class="card w-75">
 
-            <img class="img-fluid " :src="'src/assets/img/' + this.immagineSrc" alt="">
+            <img class="img-fluid " :src="'src/assets/img/' + this.trainer.imgSrc" alt="">
 
             <div class="testo p-3">
 
-                <h5 class="text-start pt-3 ">{{ this.name }}</h5>
+                <h5 class="text-start pt-3 ">{{ this.trainer.name }}</h5>
                 <h5 class="text-start pb-3">Personal Trainer</h5>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dolorum exercitationem saepe quod
                     magni totam!</p>
