@@ -5,6 +5,10 @@ body {
   font-family: 'Alexandria', sans-serif;
 }
 
+p {
+  color: $greyFont;
+}
+
 .empty-button {
   background-color: transparent;
   background-repeat: no-repeat;
