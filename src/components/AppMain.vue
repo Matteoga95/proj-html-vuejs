@@ -5,6 +5,7 @@ import ServiceCard from '../components/partial/ServiceCard.vue';
 import FeedbackCard from '../components/partial/FeedbackCard.vue';
 import BruceLeeQuotation from '../components/partial/BruceLeeQuotation.vue';
 import TrainerCard from '../components/partial/TrainerCard.vue';
+import NewsCard from '../components/partial/NewsCard.vue';
 
 
 export default {
@@ -14,7 +15,8 @@ export default {
         ServiceCard,
         FeedbackCard,
         BruceLeeQuotation,
-        TrainerCard
+        TrainerCard,
+        NewsCard
     }
 }
 </script>
@@ -127,6 +129,28 @@ export default {
                 </div>
             </div>
 
+
+        </section>
+
+        <!-- sezione news  -->
+        <section class="primario">
+            <div class="contenitore">
+                <titleDiv title="PERFORMANCE NEWS" />
+
+                <div class="d-flex flex-wrap justify-content-center">
+                    <NewsCard title="Train with free weights or your body weight?" immagineSrc="blog1.jpg" />
+                    <NewsCard title="Nutritional advice that will keep you training" immagineSrc="blog6.jpg" />
+                    <NewsCard title="Simple principles for your next workout" immagineSrc="trainer4.jpg" />
+                    <NewsCard title="To be numbver one, train like your're number two" immagineSrc="blog4.jpg" />
+                    <NewsCard title="Top 5 mistakes every gym member makes" immagineSrc="trainer3.jpg" />
+                    <NewsCard title="The myths of shedding body fat explored" immagineSrc="trainer1.jpg" />
+
+                </div>
+
+                <div class="d-flex">
+                    <button class="empty-button px-4 my-5 ">READ ALL ARTICLES</button>
+                </div>
+            </div>
 
         </section>
 

@@ -58,8 +58,8 @@ h5 {
 }
 
 .red-block {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-color: $greyDarker;
     border-radius: 2px;
     color: white;
