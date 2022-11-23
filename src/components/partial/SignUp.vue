@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <div class="contenitore d-flex justify-content-center py-4">
+    <div class="contenitore d-flex justify-content-center py-5">
         <img class="img-fluid" src="../../assets/img/home_img-compressor-400x222.jpg" alt="">
         <div class="mx-5">
             <h4>Sign Up For A Free Training Session!</h4>

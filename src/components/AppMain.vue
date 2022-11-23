@@ -81,7 +81,7 @@ export default {
 
                     <div class="d-flex contenitore  p-0 justify-content-center flex-wrap">
                         <div>
-                            <img class="p-3 " src="../assets/img/home-image1.jpg" alt="">
+                            <img class="p-3 w-100" src="../assets/img/home-image1.jpg" alt="">
                         </div>
                         <div>
                             <img class="p-3" src="../assets/img/home-image2.jpg" alt="">
@@ -114,7 +114,7 @@ export default {
 
         <!-- sezione trainers -->
         <section class="secondario  py-5">
-            <div class="contenitore">
+            <div class="contenitore trainer">
                 <titleDiv title="MEET OUR TRAINERS" />
 
                 <div class="d-flex justify-content-center">
@@ -127,6 +127,9 @@ export default {
                 <div class="d-flex">
                     <button class="empty-button px-4 ">VIEW ALL TRAINERS</button>
                 </div>
+
+
+                <span class="triangle-down ">&#9207</span>
             </div>
 
 
@@ -178,11 +181,27 @@ export default {
     text-align: center;
 
     position: relative;
+
+    .triangle-down {
+        color: $greyMain ;
+        bottom: -30%;
+        left: 47%
+    }
 }
 
-.triangle-down {
-    color: $greyMain ;
+.trainer {
+    .triangle-down {
+        color: $greyDarker ;
+        bottom: -16%;
+        left: 44%
+    }
 }
+
+
+
+
+
+
 
 .service-card {
     background-image: url("../assets/img/gym_bkgd_bw-compressor.jpg");

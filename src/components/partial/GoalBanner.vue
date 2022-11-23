@@ -30,6 +30,7 @@ export default {
 .goal-banner {
     background-image: url("../../assets/img/home-parallax.jpg");
     background-size: cover;
+
     color: white;
 }
 
