@@ -8,6 +8,7 @@ import TrainerCard from '../components/partial/TrainerCard.vue';
 import NewsCard from '../components/partial/NewsCard.vue';
 import GoalBanner from '../components/partial/GoalBanner.vue';
 import Info from '../components/partial/Info.vue';
+import { store as state } from '../Store.js'
 
 export default {
     components: {
@@ -20,6 +21,11 @@ export default {
         NewsCard,
         GoalBanner,
         Info
+    },
+    data() {
+        return {
+            state
+        }
     }
 }
 </script>
@@ -49,10 +55,7 @@ export default {
         <!-- sezione service card  -->
         <section class="service-card ">
             <div class="contenitore d-flex">
-                <ServiceCard title="Strenght & Conditioning" iconType="fa-solid fa-link-slash" />
-                <ServiceCard title="Fitness & Cardio" iconType="fa-solid  fa-bicycle" />
-                <ServiceCard title="Flexibility & Rest" iconType="fa-solid fa-cloud" />
-                <ServiceCard title="Health & Diet" iconType="fa-solid fa-heart-pulse" />
+                <ServiceCard v-for="servizio in state.services" :servizio="servizio" />
             </div>
 
         </section>

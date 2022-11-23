@@ -5,8 +5,17 @@ import { icon } from '@fortawesome/fontawesome-svg-core';
 export default {
     name: "ServiceCard",
     props: {
-        title: String,
-        iconType: String
+        servizio: Object
+    },
+    data() {
+        return {
+            title: "",
+            iconType: ""
+        }
+    },
+    mounted() {
+        this.iconType = this.servizio.iconString
+        this.title = this.servizio.title
     }
 }
 </script>
