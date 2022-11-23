@@ -4,6 +4,7 @@ import signUp from '../components/partial/SignUp.vue';
 import ServiceCard from '../components/partial/ServiceCard.vue';
 import FeedbackCard from '../components/partial/FeedbackCard.vue';
 import BruceLeeQuotation from '../components/partial/BruceLeeQuotation.vue';
+import TrainerCard from '../components/partial/TrainerCard.vue';
 
 
 export default {
@@ -12,7 +13,8 @@ export default {
         signUp,
         ServiceCard,
         FeedbackCard,
-        BruceLeeQuotation
+        BruceLeeQuotation,
+        TrainerCard
     }
 }
 </script>
@@ -106,6 +108,28 @@ export default {
         <section>
             <BruceLeeQuotation />
         </section>
+
+        <!-- sezione trainers -->
+        <section class="secondario  py-5">
+            <div class="contenitore">
+                <titleDiv title="MEET OUR TRAINERS" />
+
+                <div class="d-flex justify-content-center">
+                    <TrainerCard name="Ann Baker" immagineSrc="trainer1.jpg" />
+                    <TrainerCard name="Anne Warren" immagineSrc="trainer3.jpg" />
+                    <TrainerCard name="Peter Rice" immagineSrc="trainer4.jpg" />
+
+                </div>
+
+
+                <div class="d-flex">
+                    <button class="empty-button px-4 ">VIEW ALL TRAINERS</button>
+                </div>
+            </div>
+
+
+        </section>
+
     </main>
 </template>
 
