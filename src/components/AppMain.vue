@@ -69,14 +69,9 @@ export default {
                     <titleDiv title="REAL WORLD RESULTS " />
 
                     <div class="d-flex flex-wrap mb-5">
-                        <FeedbackCard name="Tara Smith" immagineSrc="review_1-compressor.jpg"
-                            paragraph="'The trainers at Avada Gym have helped me reach my fitness goals beyond anything i could of hoped for. i love it!'" />
-                        <FeedbackCard name="Simon Chel" immagineSrc="review_3-compressor-2.jpg"
-                            paragraph="'The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out.'" />
-                        <FeedbackCard name="Jen Wirth" immagineSrc="review_2-compressor.jpg"
-                            paragraph="'The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment..'" />
-                        <FeedbackCard name="Jeff Glum" immagineSrc="review_4-compressor-2.jpg"
-                            paragraph="'No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers..'" />
+
+                        <FeedbackCard v-for="feedback in state.feedbacks" :feedback="feedback" />
+
                     </div>
                 </div>
 

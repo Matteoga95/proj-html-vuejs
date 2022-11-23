@@ -3,9 +3,7 @@
 export default {
     name: "FeedbackCard",
     props: {
-        name: String,
-        immagineSrc: String,
-        paragraph: String
+        feedback: Object
     }
 }
 </script>
@@ -14,11 +12,11 @@ export default {
     <div class="text-center col-6 ">
         <div class="card m-3">
             <div class="d-flex p-3 ">
-                <img :src="'src/assets/img/' + this.immagineSrc" alt="">
+                <img :src="'src/assets/img/' + this.feedback.imgSrc" alt="">
 
                 <div class="testo px-3">
-                    <p class="text-start fst-italic">{{ this.paragraph }}</p>
-                    <h5 class="text-start ">- {{ this.name }}</h5>
+                    <p class="text-start fst-italic">{{ this.feedback.paragraph }}</p>
+                    <h5 class="text-start ">- {{ this.feedback.name }}</h5>
                 </div>
 
             </div>

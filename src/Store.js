@@ -20,5 +20,27 @@ export const store = reactive({
             "title": "Health & Diet",
             "iconString": "fa-solid fa-heart-pulse"
         }
+    ],
+    feedbacks: [
+        {
+            "name": "Tara Smith",
+            "imgSrc": "review_1-compressor.jpg",
+            "paragraph": "'The trainers at Avada Gym have helped me reach my fitness goals beyond anything i could of hoped for. i love it!'"
+        },
+        {
+            "name": "Simon Chel",
+            "imgSrc": "review_3-compressor-2.jpg",
+            "paragraph": "'The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out.'"
+        },
+        {
+            "name": "Jen Wirth",
+            "imgSrc": "review_2-compressor.jpg",
+            "paragraph": "'The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment..'"
+        },
+        {
+            "name": "Jeff Glum",
+            "imgSrc": "review_4-compressor-2.jpg",
+            "paragraph": "'No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers..'"
+        }
     ]
 })
