@@ -1,11 +1,13 @@
 <script>
 import titleDiv from '../components/partial/TitleDivisorio.vue';
 import signUp from '../components/partial/SignUp.vue';
+import ServiceCard from '../components/partial/ServiceCard.vue';
 
 export default {
     components: {
         titleDiv,
-        signUp
+        signUp,
+        ServiceCard
     }
 }
 </script>
@@ -31,6 +33,18 @@ export default {
             <signUp />
         </section>
 
+
+        <!-- sezione service card  -->
+        <section class="service-card ">
+            <div class="contenitore d-flex">
+                <ServiceCard title="Strenght & Conditioning" />
+                <ServiceCard title="Fitness & Cardio" />
+                <ServiceCard title="Flexibility & Rest" />
+                <ServiceCard title="Health & Diet" />
+            </div>
+
+        </section>
+
     </main>
 </template>
 
@@ -53,5 +67,12 @@ export default {
 
 .triangle-down {
     color: $greyMain ;
+}
+
+.service-card {
+    background-image: url("../assets/img/gym_bkgd_bw-compressor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 </style>
