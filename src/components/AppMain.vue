@@ -138,12 +138,8 @@ export default {
                 <titleDiv title="PERFORMANCE NEWS" />
 
                 <div class="d-flex flex-wrap justify-content-center">
-                    <NewsCard title="Train with free weights or your body weight?" immagineSrc="blog1.jpg" />
-                    <NewsCard title="Nutritional advice that will keep you training" immagineSrc="blog6.jpg" />
-                    <NewsCard title="Simple principles for your next workout" immagineSrc="trainer4.jpg" />
-                    <NewsCard title="To be numbver one, train like your're number two" immagineSrc="blog4.jpg" />
-                    <NewsCard title="Top 5 mistakes every gym member makes" immagineSrc="trainer3.jpg" />
-                    <NewsCard title="The myths of shedding body fat explored" immagineSrc="trainer1.jpg" />
+
+                    <NewsCard v-for="news in state.news" :news="news" />
 
                 </div>
 

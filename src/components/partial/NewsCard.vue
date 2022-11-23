@@ -3,8 +3,7 @@
 export default {
     name: "NewsCard",
     props: {
-        title: String,
-        immagineSrc: String
+        news: Object
     }
 }
 </script>
@@ -13,11 +12,11 @@ export default {
     <div class="news ">
         <div class="card m-3 ">
 
-            <img class="img-fluid  " :src="'src/assets/img/' + this.immagineSrc" alt="">
+            <img class="img-fluid  " :src="'src/assets/img/' + this.news.imgSrc" alt="">
 
             <div class="testo p-3">
 
-                <h5 class="text-start pt-3 ">{{ this.title }}</h5>
+                <h5 class="text-start pt-3 ">{{ this.news.title }}</h5>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eaque corporis, natus aut eos
                     soluta consequuntur ipsa tenetur odit iusto!</p>

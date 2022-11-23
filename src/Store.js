@@ -56,5 +56,31 @@ export const store = reactive({
             "name": "Peter Rice",
             "imgSrc": "trainer4.jpg"
         }
+    ],
+    news: [
+        {
+            "title": "Train with free weights or your body weight?",
+            "imgSrc": "blog1.jpg"
+        },
+        {
+            "title": "Nutritional advice that will keep you training",
+            "imgSrc": "blog6.jpg"
+        },
+        {
+            "title": "Simple principles for your next workout",
+            "imgSrc": "trainer4.jpg"
+        },
+        {
+            "title": "To be numbver one, train like your're number two",
+            "imgSrc": "blog4.jpg"
+        },
+        {
+            "title": "Top 5 mistakes every gym member makes",
+            "imgSrc": "trainer3.jpg"
+        },
+        {
+            "title": "The myths of shedding body fat explored",
+            "imgSrc": "trainer1.jpg"
+        }
     ]
 })
